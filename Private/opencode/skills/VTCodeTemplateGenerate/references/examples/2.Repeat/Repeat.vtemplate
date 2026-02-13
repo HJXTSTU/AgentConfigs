@@ -1,0 +1,14 @@
+using UnityEngine;
+
+namespace VTCodeTemplateDemo
+{
+    public class RepeatExample
+    {
+        public void RepeatLog()
+        {
+            $Repeat LogArea$
+            Debug.Log("Repeat $Count$: $Content$");
+            $EndRepeat$
+        }
+    }
+}

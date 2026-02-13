@@ -1,0 +1,16 @@
+using UnityEngine;
+
+namespace VTCodeTemplateDemo
+{
+    public class ConditionalExample
+    {
+        public void ConditionalLog()
+        {
+            $If LogCondition$
+            Debug.Log("Condition Area Log");
+            $EndIf$
+
+            Debug.Log("Done");
+        }
+    }
+}

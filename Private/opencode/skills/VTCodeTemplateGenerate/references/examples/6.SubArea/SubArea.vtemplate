@@ -1,0 +1,16 @@
+using UnityEngine;
+
+namespace VTCodeTemplateDemo
+{
+    public class SubAreaExample
+    {
+        public void Say()
+        {
+            Debug.Log("Log Global Content. $GlobalContent$");
+
+            $SubArea LogContentArea$
+            Debug.Log("Log Global Content. $Content$");
+            $EndSubArea$
+        }
+    }
+}

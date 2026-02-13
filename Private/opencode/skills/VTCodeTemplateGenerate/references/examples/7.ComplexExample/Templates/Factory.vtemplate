@@ -1,0 +1,15 @@
+namespace VTCodeTemplateDemo {
+	public static class $FactoryType$Factory
+	{
+		public static $BaseType$ Create(string name)
+		{
+			switch (name)
+			{
+				$Repeat SwitchCaseArea$
+				$Include "CaseArea.vtemplate"$
+				$EndRepeat$
+			}
+			return null;
+		}
+	}
+}

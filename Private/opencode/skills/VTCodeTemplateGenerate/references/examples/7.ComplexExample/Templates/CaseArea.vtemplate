@@ -1,0 +1,2 @@
+case "$TypeName$":
+    return new $TypeName$();

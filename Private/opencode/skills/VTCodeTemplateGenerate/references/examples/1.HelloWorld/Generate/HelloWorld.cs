@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace VTCodeTemplateDemo
+{
+    public class HelloWorld
+    {
+        public void Say()
+        {
+            Debug.Log("Hello World");
+        }
+    }
+}

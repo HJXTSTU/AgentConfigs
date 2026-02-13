@@ -1,0 +1,18 @@
+using UnityEngine;
+
+namespace VTCodeTemplateDemo
+{
+    public class RepeatConditionalExample
+    {
+        public void RepeatLog()
+        {
+            $Repeat RepeatLog$
+            $If LogCondition$
+            Debug.Log("Repeat $Count$: Condition Area Log. $InternalContent$");
+            $EndIf$
+            $EndRepeat$
+
+            Debug.Log("Done");
+        }
+    }
+}
